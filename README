@@ -1,0 +1,22 @@
+Requirements
+
+Gradle 5.3.1
+Java "1.8"
+
+Compiling and testing application
+
+gradle build
+
+Tests reports
+<base dir>/build/reports/tests/test/packages/com.marcos.exercise.html
+
+Running application
+
+java -jar build/libs/test-0.0.1-SNAPSHOT.jar
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.marcos'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
+}
+
+jar {
+	manifest {
+		attributes(
+				'Main-Class': 'com.marcos.exercise.TestApplication'
+		)
+	}
+}
+
+test {
+	useJUnitPlatform()
+}
